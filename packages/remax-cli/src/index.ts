@@ -8,7 +8,7 @@ export let cli = yargs;
 
 export function run(args: any, callback?: yargs.ParseCallback) {
   cli = yargs
-    .scriptName('remax-cli')
+    .scriptName('remax')
     .usage('Usage: $0 <command> [options]')
     .command<any>(
       'build',
